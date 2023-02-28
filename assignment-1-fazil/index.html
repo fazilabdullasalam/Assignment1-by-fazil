@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Assignment 1 Example | COMP1073 Client-Side Scripting</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="storymaker.js" defer></script>
+    </head>
+    <body>
+        <h1>STORY MAKER</h1>
+        <section id="buildSentence">
+            <!-- Set up a button for each part of the sentence, and an empty paragraph to output the currenly chosen word -->
+            <h2>Build your sentence</h2>
+            <button id="noun1">Choose Noun 1</button>
+            <p id="selectedNoun1">The turkey</p>
+            <button id="verb">Choose Verb</button>
+            <p id="selectedVerb">sat on</p>
+            <button id="adjective">Choose Adjective</button>
+            <p id="selectedAdjective">a funny</p>
+            <button id="noun2">Choose Noun 2</button>
+            <p id="selectedNoun2">goat</p>
+            <button id="setting">Choose Setting</button>
+            <p id="selectedSetting">on the moon</p>
+        </section>
+        <section id="showSentence">
+            <!-- Set up a button to build the completed sentence, and an empty paragraph to output it to the screen -->
+            <h2>View Your Sentence</h2>
+            <button id="viewSentence">View Sentence</button>
+            <!-- Set up a button to build a randomly-generated sentence, and an empty paragraph to output it to the screen -->
+            <button id="randomSentence">Surprise Me</button>
+            <p id="displaySentence"></p>
+        </section>
+    </body>
+</html>
